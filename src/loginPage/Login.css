@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col-hcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.login {
+  position: relative;
+  background-color: rgba(126, 130, 125, 1);
+  width: 1920px;
+  height: 1080px;
+}
+
+.group-13 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 80px;
+  width: 100%;
+}
+
+.backgroundImage {
+  top: 68px;
+  left: 709px;
+  width: 100%;
+  height: 100%;
+}
+
+.formFrame {
+  position: absolute;
+  top: calc(50% - 538px / 2 + 37px);
+  left: calc(50% - 586px / 2 - 424px);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(217, 220, 224, 1);
+  box-sizing: border-box;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+  width: 586px;
+  height: 538px;
+}
+
+.HeaderFormFrame {
+  position: absolute;
+  top: 12px;
+  none: 0px;
+  width: 112px;
+  height: 17px;
+}
+
+.google {
+  width: 16px;
+  height: 16px;
+  margin-right: 16px;
+}
+
+.txtGoogleStore {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.14px;
+  color: rgba(95, 99, 104, 1);
+  word-wrap: break-word;
+}
+
+.bodyFormFrame {
+  position: absolute;
+  top: 39px;
+  none: 0px;
+  height: 462px;
+  width: 100%;
+}
+
+.bodyFormFrameTwo {
+  background-color: rgba(217, 220, 224, 1);
+  height: 1px;
+  margin-bottom: 87px;
+  width: 100%;
+}
+
+.divTxtLogin {
+  margin-bottom: 338px;
+  box-sizing: border-box;
+  height: 35px;
+  width: fit-content;
+}
+
+.txtLogin {
+  font-size: 23px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.46px;
+  color: rgba(32, 33, 36, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.linhaFooterForm {
+  background-color: rgba(217, 220, 224, 1);
+  height: 1px;
+  width: 100%;
+}
+
+.error-message {
+  color: rgb(240, 47, 47);
+}
+
+.campoSenha {
+  box-sizing: border-box;
+  margin-top: 10%;
+  width: 350px;
+}
+
+.campoEmail {
+  box-sizing: border-box;
+  margin-top: 10%;
+  width: 350px;
+}
+
+.inputEmail {
+  border: 1px solid #D9DCE0;
+  border-radius: 8px;
+}
+
+.inputSenha {
+  border: 1px solid #D9DCE0;
+  border-radius: 8px;
+}
+
+.criarConta {
+  position: absolute;
+  width: 100px;
+  left: 40px;
+  top: 381px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #1A73E8;
+
+}
+
+.buttonProximo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 24px;
+  gap: 10px;
+
+  position: absolute;
+  width: 108px;
+  height: 41px;
+  left: 438px;
+  top: 371px;
+
+  background: #1A73E8;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.textButtonProximo{
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 14px;
+text-align: center;
+cursor: pointer;
+color: #FFFFFF;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 30px;
+  color: #D2DAF5;
+  /*font-family: Poppins;*/
+}
+
+input{
+  width: 100%;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  height: 50px;
+}
+
